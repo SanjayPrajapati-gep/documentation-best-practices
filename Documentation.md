@@ -1,10 +1,35 @@
-# Documentation (Draft)
+# Documentation
+
+## Good Practices
+
+This article ["What nobody tells you about documentation"](https://www.divio.com/blog/documentation/) is a must-read! It separates the documentation into four quadrants, each of which takes a different responsibility:
+
+> - Tutorials
+>   - is **learning-oriented**
+>   - allows the newcomer to get started
+>   - is a lesson
+> - How-to guides
+>   - is **goal-oriented**
+>   - shows how to solve a specific problem
+>   - is a series of steps
+> - Explanation
+>   - is **understanding-oriented**
+>   - explains
+>   - provides background and context
+> - Reference
+>   - is **information-oriented**
+>   - describes the machinery
+>   - is accurate and complete
+
+The great thanks go to [Daniele Procida](https://twitter.com/evildmp) who makes it so clear and concise!
 
 ## Current Issues
 
-A currently common documentation pattern is:
+With the above-mentioned four documentation quadrants, I find many documentations are poor because of the lack in "Explanation": they provide a lot of tutorials and how-to guides but fail to give a conceptual explanation of the product components and how and **especially why** they are put that way.
 
-## Bad Examples
+I **strongly believe** understanding `why`s is crucial to using the product correctly, because those `why`s reflect the problems the product is solving. Not understanding the `why`s may result in using the product in the wrong context to solve the wrong problem.
+
+## Doc Smells
 
 ### Reference without Definition
 
